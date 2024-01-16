@@ -20,7 +20,7 @@ module.exports = function(app){
     });
 
     app.get('/25by25', function(req, res){
-        res.render(path.join(__dirname, '..' , '/public/html/25by25.ejs'));
+        res.render(path.join(__dirname, '..' , '/public/html/25by25/25by25.ejs'));
     });
 
     app.get('/moderndaymoneyball', function(req, res){
