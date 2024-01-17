@@ -194,25 +194,31 @@ https://www.tooplate.com/view/2125-artxibition
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Venues & Tickets</h2>
+                        <h2>The 25 Goals</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="event-item">
-                        <div class="thumb">
-                            <a href="event-details.html"><img src="../../pictures/25by25/event-01.jpg" alt=""></a>
-                        </div>
-                        <div class="down-content">
-                            <a href="event-details.html"><h4> 1. Finish Masters with a >= 3.8</h4></a>
-                            <ul>
-                                <li><i class="fa fa-book w3-xxxsmall"></i> Almost</li>
-                                <li><i class="fa fa-map-marker"></i> 3.74</li>
-                            </ul>
+            <%  var counter = 0;
+                for(var i = 0; i < 5; i++){ %>
+                <div class="row">
+                <% for(var j = 0; j < 5; j++){ %>
+                    <div class="col">
+                        <div class="event-item">
+                            <div class="thumb">
+                                <a href="event-details.html"><img src="../../pictures/25by25/event-01.jpg" alt=""></a>
+                            </div>
+                            <div class="down-content">
+                                <a href="event-details.html"><h4> <%= goals[counter].goal %></h4></a>
+                                <ul>
+                                    <li><i class="fa fa-book w3-xxxsmall"></i> <%= goals[counter].completed %></li>
+                                    <li><i class="fa fa-map-marker"></i> <%= goals[counter].date %></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                <% counter++;}%>   
                 </div>
+            <% } %>
                 <div class="col">
                     <div class="event-item">
                         <div class="thumb">
