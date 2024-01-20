@@ -6,7 +6,6 @@ $(document).ready(function(){
             url: '/',
             data: {name: name, email: email, message: message},
             success: function(data){
-                console.log('The post request worked');
                 location.reload();
             }
         });

@@ -202,39 +202,14 @@ p
 /* end divider */
 
 /* start about */
-#about h3
-    {
-        color: #93ca3a;
-        font-size: 40px;
-        padding-bottom: 10px;
-    }
 #about h4
     {
         padding-bottom: 10px;
-    }
-#about .progress
-    {
-        border-radius: 4px;
-        background: #ffffff;
-        height: 6px;
-    }
-#about .progress .progress-bar-danger
-    {
-        background: #93ca3a;
+        text-align: center;
     }
 #about .text-top
     {
         padding-top: 50px;
-    }
-#about span
-    {
-        display: block;
-        padding-bottom: 10px;
-    }
-#about small
-    {
-        font-weight: bold;
-        padding-left: 200px;
     }
 /* end about */
 
