@@ -1,7 +1,8 @@
 var express = require('express');
 var home_controller = require('./controllers/home_controller');
 var reading_controller = require('./controllers/reading_controller');
-var todo_controller = require('./controllers/todo_controller')
+var todo_controller = require('./controllers/todo_controller');
+var twenty_five_controller = require('./controllers/25_controller');
 var path = require('path');
 var mongoose = require('mongoose');
 const { renderFile } = require('ejs');
@@ -17,6 +18,7 @@ app.use(express.static(path.join(__dirname + '/public')));
 home_controller(app);
 reading_controller(app);
 todo_controller(app);
+twenty_five_controller(app);
 
 //Connect to the database
 mongoose.connect("mongodb://localhost:27017/ToDoListApp");

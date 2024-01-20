@@ -24,7 +24,7 @@ module.exports = function(app){
         Goal.find({}, function(err, data){
             if(err)
                 throw err;
-            res.render(path.join(__dirname, '..', '/public/html/25by25.ejs'), {goals: data});
+            res.render(path.join(__dirname, '..', '/public/html/25by25.ejs'), {books: data});
         });
     });
 }
