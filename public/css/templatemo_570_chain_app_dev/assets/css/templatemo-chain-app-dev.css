@@ -345,33 +345,11 @@ header
   background: transparent;
 }
 
-.header-area .main-nav .logo {
-  float: left;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.header-area .main-nav .logo {
-    line-height: 100px;
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.background-header .main-nav .logo {
-  line-height: 80px;
-}
-
 .background-header .main-nav .nav {
   margin-top: 20px !important;
 }
 
 .header-area .main-nav .nav {
-  float: right;
   margin-top: 30px;
   margin-right: 0px;
   background-color: transparent;
@@ -916,7 +894,7 @@ Banner Style
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  right: -950px;
+  right: -750px;
   top: 0px;
   width: 100%;
   height: 100%;
