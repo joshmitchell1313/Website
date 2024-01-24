@@ -85,7 +85,7 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-h4 em {
+h4 em, h2 em {
   font-style: normal;
   color: #4b8ef1;
 }
@@ -876,14 +876,14 @@ Banner Style
   top: 0px;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
 .main-banner {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 250px 120px 150px 120px;
+  padding: 250px 120px 50px 120px;
   position: relative;
   overflow: hidden;
 }
@@ -898,7 +898,7 @@ Banner Style
   top: 0px;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
 .main-banner .left-content {
@@ -935,6 +935,12 @@ Banner Style
 .main-banner .left-content .white-button a {
   background-color: #4b8ef1;
   color: #fff !important;
+}
+
+.main-banner p {
+  margin-top: 100px;
+  margin-right: 100px;
+  text-align: center;
 }
 
 /* 
@@ -1086,7 +1092,7 @@ About Us
 }
 
 .about-us .section-heading {
-  margin-bottom: 90px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -1164,6 +1170,7 @@ About Us
   width: 700px;
   height: 1000px;
   right: 500px;
+  bottom: -1500px;
   content: '';
   position: absolute;
   background-repeat: no-repeat;
@@ -1195,127 +1202,16 @@ The Clients
   margin-right: 18%;
 }
 
-.the-clients .naccs {
-  position: relative;
-}
-
-.menu .thumb h4 {
-  margin-bottom: 0px;
-  font-size: 20px;
-  color: #2a2a2a;
-}
-
-.menu .thumb span.date {
-  display: inline-block;
-  margin-top: 0px;
-  color: #afafaf;
-}
-
-.menu .thumb span.category,
-.menu .thumb span.rating {
-  font-weight: 700;
-  color: #afafaf;
-}
-
-.menu .thumb i {
-  color: #afafaf;
-}
-
-.the-clients .naccs .menu div {
-  color: #fff;
-  font-size: 15px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  text-align: left;
-  padding: 0px 15px;
-  cursor: pointer;
-  position: relative;
-  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.the-clients .naccs .menu div.active h4,
-.the-clients .naccs .menu div.active i,
-.the-clients .naccs .menu div.active span.rating,
-.the-clients .naccs .menu div.active .thumb {
-  color: #4b8ef1;
-}
-
-.the-clients ul.nacc {
-  position: relative;
-  min-height: 100%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.the-clients ul.nacc li {
-  opacity: 0;
-  transform: translateX(-50px);
+.the-clients:after {
+  background-image: url(../../../../pictures/mdmimg/baseball_cleats.png);
+  width: 700px;
+  height: 700px;
+  left: 1200px;
+  content: '';
   position: absolute;
-  list-style: none;
-  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.the-clients ul.nacc li.active {
-  transition-delay: 0.3s;
-  position: relative;
-  z-index: 2;
-  opacity: 1;
-  transform: translateX(0px);
-}
-
-.the-clients ul.nacc li {
-  width: 100%;
-}
-
-.the-clients .nacc .thumb .client-content img {
-  width: 76px;
-  height: 62px;
-}
-
-.the-clients .nacc .thumb .client-content {
-  padding: 60px 30px;
-  background-image: url(../images/client-bg.png);
-  background-size: cover;
-  border-radius: 50px;
-  width: 100%;
-  height: auto;
   background-repeat: no-repeat;
-}
-
-.the-clients .nacc .thumb .client-content p {
-  color: #fff;
-  font-weight: 500;
-  font-size: 16px;
-  font-style: italic;
-  margin-top: 30px;
-}
-
-.the-clients .nacc .thumb .down-content {
-  margin-top: 30px;
-}
-
-.the-clients .nacc .thumb .down-content img {
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  display: inline;
-}
-
-.the-clients .nacc .thumb .down-content .right-content {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.the-clients .nacc .thumb .down-content .right-content h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.the-clients .nacc .thumb .down-content .right-content span {
-  color: #2a2a2a;
+  transform: translateY(-50%);
+  z-index: 0;
 }
 
 
