@@ -35,9 +35,9 @@ module.exports = function(app){
         res.render(path.join(__dirname, '..', '/public/html/resume.ejs'));
     });
 
-    app.get('/practice', function(req, res){
-        res.render(path.join(__dirname, '..', '/public/html/practice.ejs'));
-    })
+    app.get('/hoopsnhomers', function(req, res){
+        res.render(path.join(__dirname, '..', '/public/html/podcast.ejs'));
+    });
 
     app.post(['/', '/home'], urlendcodedParser, function(req, res){
         console.log('A button has been clicked');
