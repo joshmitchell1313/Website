@@ -36,11 +36,18 @@ module.exports = function(app){
     });
 
     app.get('/hoopsnhomers', function(req, res){
-        res.render(path.join(__dirname, '..', '/public/html/podcast.ejs'));
+        res.render(path.join(__dirname, '..', '/public/html/hoopsnhomers.ejs'));
+    });
+
+    app.get('/poshmark', function(req, res){
+        res.render(path.join(__dirname, '..', '/public/html/poshmark.ejs'));
+    });
+
+    app.get('/foundation', function(req, res){
+        res.render(path.join(__dirname, '..', '/public/html/foundation.ejs'));
     });
 
     app.post(['/', '/home'], urlendcodedParser, function(req, res){
-        console.log('A button has been clicked');
         var newEmail = Email(req.body).save(function(err, data){
             if (err) 
                 throw err;
