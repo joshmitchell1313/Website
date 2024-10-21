@@ -313,5 +313,40 @@
   "pages": 46, 
   "year_published": 1990, 
   "year_read": 2023
+},
+{
+  "title": "System Design Interview",
+  "author": "Alex Xu",
+  "pages": 320,
+  "year_published": 2020,
+  "year_read": 2024
+},
+{
+  "title": "Hoop Atlas",
+  "author": "Kirk Goldsberry",
+  "pages": 272,
+  "year_published": 2024,
+  "year_read": 2024
+},
+{
+  "title": "The Ballad of Songbirds and Snakes",
+  "author": "Suzanne Collins",
+  "pages": 517,
+  "year_published": 2020,
+  "year_read": 2024
+},
+{
+  "title": "Mockingjay",
+  "author": "Suzanne Collins",
+  "pages": 400,
+  "year_published": 2010,
+  "year_read": 2024
+},
+{
+  "title": "Catching Fire",
+  "author": "Suzanne Collins",
+  "pages": 391,
+  "year_published": 2009,
+  "year_read": 2024
 }
 ]
