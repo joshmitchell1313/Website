@@ -19,10 +19,6 @@ module.exports = function(app){
         res.render(path.join(__dirname, '..' , '/public/html/index.ejs'));
     });
 
-    app.get('/25by25', function(req, res){
-        res.render(path.join(__dirname, '..' , '/public/html/25by25.ejs'));
-    });
-
     app.get('/moderndaymoneyball', function(req, res){
         res.render(path.join(__dirname, '..', '/public/html/moderndaymoneyball.ejs'));
     });

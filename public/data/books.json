@@ -1,16 +1,10 @@
 [{
-  "_id": {
-    "$oid": "629bf93ccea0f87793a228ce"
-  },
   "title": "We Are All Stardust",
   "author": "Stefan Klein",
   "pages": 261,
   "year_published": 2015,
   "year_read": 2020
 },{
-  "_id": {
-    "$oid": "629bf997cea0f87793a228cf"
-  },
   "title": "Everything is F*cked",
   "author": "Mark Manson",
   "pages": 232,

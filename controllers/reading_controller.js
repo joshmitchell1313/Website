@@ -1,9 +1,7 @@
-const mongoose = require("mongoose");
 const path = require("path");
-const bodyParser = require("body-parser");
-const { data } = require("jquery");
 const fs = require("fs");
 
+//books will hold the array of book data parsed from the books json file
 var books
 const filePath = path.join(__dirname, './../public/data/books.json')
 fs.readFile(filePath, 'utf8', (err, data) => {

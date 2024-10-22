@@ -1,30 +1,20 @@
-const mongoose = require("mongoose");
 const path = require("path");
-const bodyParser = require("body-parser");
-const { data } = require("jquery");
+const fs = require("fs")
 
-
-//Create schema
-const goalSchema = new mongoose.Schema({
-    number: Number,
-    goal: String,
-    completed: String,
-    date: String
-});
-
-const Goal = mongoose.model('Goal', goalSchema);
-
-//Try middleware
-
-var urlendcodedParser = bodyParser.urlencoded({extended: false});
+//will hold an array of all goals data
+var goals
+const filePath = path.join(__dirname, './../public/data/goals.json')
+fs.readFile(filePath, 'utf8', (err, data) => {
+    if(err) {
+        console.error(err);
+        return;
+    }
+    goals = JSON.parse(data)
+    console.log(goals[1].title)
+})
 
 module.exports = function(app){
-
     app.get('/25by25', function(req, res){
-        Goal.find({}, function(err, data){
-            if(err)
-                throw err;
-            res.render(path.join(__dirname, '..', '/public/html/25by25.ejs'), {goals: data});
-        });
+        res.render(path.join(__dirname, '..', '/public/html/25by25.ejs'), {goals});
     });
 }
