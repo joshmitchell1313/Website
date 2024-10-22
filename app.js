@@ -24,9 +24,9 @@ twenty_five_controller(app);
 podcast_controller(app);
 
 //Connect to the database
-mongoose.connect("mongodb://localhost:27017/ToDoListApp");
+mongoose.connect("mongodb+srv://joshmitchell1313:SgvIFXCu0ygcbrdB@joshmitch13website.gnbh9.mongodb.net/?retryWrites=true&w=majority&appName=joshmitch13website");
 
 //Listens to a port
-app.listen(3001, function(){
-    console.log('I am listening on port 3001, hello world');
+app.listen(3000, function(){
+    console.log('I am listening on port 3000, hello world');
 });
