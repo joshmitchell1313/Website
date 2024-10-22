@@ -10,78 +10,78 @@
     "date": "May 16, 2022"
   },{
     "number": 3,
-    "title": "Do the splits",
-    "status": "A",
-    "date": "IP"
+    "title": "Do front splits",
+    "status": "No",
+    "date": "N/A"
   },{
     "number": 4,
     "title": "Read 30 books",
     "status": "Completed",
-    "date": "December 30, 2023"
+    "date": "Dec 30, 2023"
   },{
     "number": 5,
     "title": "Payoff student loans",
     "status": "Completed",
-    "date": "August 23, 2022"
+    "date": "Aug 23, 2022"
   },{
     "number": 6,
-    "title": "Have a full-time career",
+    "title": "Get a Job",
     "status": "Completed",
-    "date": "September 1, 2021"
+    "date": "Sep 1, 2021"
   },{
     "number": 7,
     "title": "Volunteer more",
     "status": "Completed",
-    "date": "October 14, 2023"
+    "date": "Oct 14, 2023"
   },{
     "number": 8,
-    "title": "Visit 5 different states",
+    "title": "Visit 5 states",
     "status": "Completed",
-    "date": "June 29, 2022"
+    "date": "Jun 29, 2022"
   },{
     "number": 9,
     "title": "Finish 3,000 piece puzzle",
     "status": "Completed",
-    "date": "July 24, 2021"
+    "date": "Jul 24, 2021"
   },{
     "number": 10,
-    "title": "Made 10 3-pointers in a row",
-    "status": "A",
-    "date": "IP"
+    "title": "Made 10 3's in a row",
+    "status": "No, 9 ",
+    "date": "N/A"
   },{
     "number": 11,
     "title": "Study Spanish",
-    "status": "N",
+    "status": "No",
     "date": "N/A"
   },{
     "number": 12,
-    "title": "Participate in a food eating contest",
-    "status": "N",
+    "title": "Food Eating Contest",
+    "status": "No",
     "date": "N/A"
   },{
     "number": 13,
     "title": "Study grammar",
-    "status": "N",
-    "date": "IP"
+    "status": "No",
+    "date": "N/A"
   },{
     "number": 14,
     "title": "Leave the country",
-    "status": "N",
-    "date": "IP"
+    "status": "No",
+    "date": "N/A"
   },{
     "number": 15,
-    "title": "Have a savings account",
+    "title": "Have savings",
     "status": "Completed",
-    "date": "January 8, 2023"
+    "date": "Jan 8, 2023"
   },{
     "number": 16,
     "title": "Dunk a basketball",
-    "status": "A",
-    "date": "January 3, 2023"
+    "status": "No, dunked tennis ball",
+    "date": "Dec 15, 2023"
   },{
     "number": 17,
-    "title": "Behind the back arm stretch",
-    "status": "N",
+    "title": "Arm Stretch",
+    "status": "No",
     "date": "N/A"
   },{
     "number": 18,
@@ -92,37 +92,37 @@
     "number": 19,
     "title": "Play on a soccer team",
     "status": "Completed",
-    "date": "October 4, 2021"
+    "date": "Oct 4, 2021"
   },{
     "number": 20,
-    "title": "Finish a rubix cube in 90 seconds",
-    "status": "N",
+    "title": "Rubix Cube in 90 seconds",
+    "status": "No",
     "date": "N/A"
   },{
     "number": 21,
-    "title": "Know the location of countries & flags",
+    "title": "Countries loc & flag",
     "status": "Completed",
-    "date": "January 20, 2022"
+    "date": "Jan 20, 2022"
   },{
     "number": 22,
     "title": "Run a marathon",
-    "status": "A",
-    "date": "IP"
+    "status": "No, half-marathon",
+    "date": "Jul 23, 2023"
   },{
     "number": 23,
-    "title": "Name all bones in the body",
+    "title": "Human bones",
     "status": "Completed",
-    "date": "January 7, 2024"
+    "date": "Jan 7, 2024"
   },{
     "number": 24,
-    "title": "Study different religions",
-    "status": "N",
+    "title": "Study religious texts",
+    "status": "No",
     "date": "N/A"
   },{
     "number": 25,
     "title": "Study finance",
     "status": "Completed",
-    "date": "November 25, 2023"
+    "date": "Nov 25, 2023"
   }
 
 
