@@ -2,39 +2,26 @@ const mongoose = require("mongoose");
 const path = require("path");
 const bodyParser = require("body-parser");
 const { data } = require("jquery");
+const fs = require("fs");
 
-
-//Create schema
-const bookSchema = new mongoose.Schema({
-    title: String,
-    author: String,
-    pages: Number,
-    year_published: Number,
-    year_read: Number
-});
-
-const Book = mongoose.model('Book', bookSchema);
-
-//Try middleware
-
-var urlendcodedParser = bodyParser.urlencoded({extended: false});
+var books
+const filePath = path.join(__dirname, './../public/data/books.json')
+fs.readFile(filePath, 'utf8', (err, data) => {
+    if(err) {
+        console.error(err);
+        return;
+    }
+    books = JSON.parse(data)
+})
 
 module.exports = function(app){
 
     app.get('/reading', function(req, res){
-        Book.find({}, function(err, data){
-            if(err)
-                throw err;
-            res.render(path.join(__dirname, '..', '/public/html/reading.ejs'), {books: data});
-        });
+        res.render(path.join(__dirname, '..', '/public/html/reading.ejs'), {books});
     });
-
+//Need to sort in teh future
     app.get('/reading/1', function(req, res){
-        Book.find({}, function(err, data){
-            if(err)
-                throw err;
-            res.render(path.join(__dirname, '..', '/public/html/reading.ejs'), {books: data});
-        }).sort({"title": 1});
+        res.render(path.join(__dirname, '..', '/public/html/reading.ejs'), {books});
     });
 
     app.get('/reading/2', function(req, res){
