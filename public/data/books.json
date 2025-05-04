@@ -370,5 +370,19 @@
   "pages": 336,
   "year_published": 1985,
   "year_read": 2025
-}    
+},
+{
+  "title": "Farenheit 451",
+  "author": "Ray Bradbury",
+  "pages": 158,
+  "year_published": 1953,
+  "year_read": 2025
+},
+{
+  "title": "Lord of the Flies",
+  "author": "William Golding",
+  "pages": 261,
+  "year_published": 1954,
+  "year_read": 2025
+}
 ]
